@@ -4,9 +4,12 @@ import java.util.Scanner;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        Ventana v1 = new Ventana();
         Scanner sc = new Scanner(System.in);
         Tienda ti = new Tienda();
         int op =0;
+
+        v1.setVisible(true);
 
         do {
             System.out.println("opcion 1");
