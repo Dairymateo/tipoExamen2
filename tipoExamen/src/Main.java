@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Ventana v1 = new Ventana();
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);//ola
         Tienda ti = new Tienda();
         int op =0;
 
