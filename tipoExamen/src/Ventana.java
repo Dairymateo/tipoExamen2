@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Ventana extends JFrame {
 
     public JPanel panel;
-    public JLabel saludo;
+    public JLabel saludo; //panel
     public JLabel saludo2;
 
     public java.lang.System System;
